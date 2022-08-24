@@ -111,6 +111,7 @@ occ_rank_plot(occ = gss1972$occ, cohort = gss1972$birthyr,
               input_year = 1970,
               output_year = 2010,plot_occ = 1)
 ```
+![alt text](./figures/figure1.png?raw=true "Accountants")
 
 ```
 # Shipping and receiving clerks
@@ -118,7 +119,7 @@ occ_rank_plot(occ = gss1972$occ, cohort = gss1972$birthyr,
               input_year = 1970,
               output_year = 2010,plot_occ = 374)
 ```
-![alt text](./figures/figure1.png?raw=true "Static Visualization for the Estimated Results")
+![alt text](./figures/figure2.png?raw=true "Shipping and receiving clerks")
 
 # if the occupation code is wrong
 ```
