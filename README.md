@@ -12,7 +12,7 @@ install.packages("OccRank")
 From GitHub:
 ```
 library(devtools)
-devtools::install_github("Jiahui1902/OccRank.github.io", subdir = "r-package/")
+devtools::install_github("Jiahui1902/OccRank")
 ```
 
 ### Examples
