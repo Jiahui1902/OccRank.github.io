@@ -98,10 +98,10 @@ gss2018_occrank <- occ_rank(occ = gss2018$occ10, cohort = gss2018$birthyr,
        input_year = 2010,export="table")
 head(gss2018_occrank)
 
-# only export the percentile rank
-prank <- occ_rank(occ = gss2018$occ10[1:10], cohort = gss2018$birthyr[1:10],
+# only export the percentile rank and add it to the input data as a new column `prank`
+gss2018$prank <- occ_rank(occ = gss2018$occ10, cohort = gss2018$birthyr,
        input_year = 2010,export="prank")
-head(prank)
+head(gss2018)
 ```
 
 # plot the percentile ranks
