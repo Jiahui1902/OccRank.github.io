@@ -1,0 +1,16 @@
+utils::globalVariables(c(
+"%>%",
+".",
+"data",
+"input_yearocc",
+"year_refocc",
+"input_occ",
+"input_description",
+"output_occ",
+"output_description",
+"prank",
+"ipums_data_occ1950_rank",
+"ipums_data_occ1990_rank",
+"ipums_data_occ2010_rank",
+"na.omit"
+))
